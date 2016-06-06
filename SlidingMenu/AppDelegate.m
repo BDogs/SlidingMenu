@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "HomePageViewController.h"
+#import "PersonalCenterViewController.h"
+
+#import "SlidingMenuManger.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    [UINavigationBar appearance].translucent = YES;
+    
+    HomePageViewController *hpVC = [[HomePageViewController alloc] init];
+    PersonalCenterViewController *pcVC = [[PersonalCenterViewController alloc] init];
+    UINavigationController *hpNav = [[UINavigationController alloc] initWithRootViewController:hpVC];
+    UINavigationController *pcNav = [[UINavigationController alloc] initWithRootViewController:pcVC];
+    
+    
+    [[SlidingMenuManger manager] startWithMainViewController:hpNav menuViewController:pcNav slidingType:SlidingTypeFromLeft];
+    
+    
+
     return YES;
 }
 

@@ -10,11 +10,16 @@
 		F991FCAA1D053F6D002EE6ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F991FCA91D053F6D002EE6ED /* main.m */; };
 		F991FCAD1D053F6E002EE6ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F991FCAC1D053F6E002EE6ED /* AppDelegate.m */; };
 		F991FCB01D053F6E002EE6ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F991FCAF1D053F6E002EE6ED /* ViewController.m */; };
-		F991FCB31D053F6E002EE6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F991FCB11D053F6E002EE6ED /* Main.storyboard */; };
 		F991FCB51D053F6E002EE6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F991FCB41D053F6E002EE6ED /* Assets.xcassets */; };
 		F991FCB81D053F6E002EE6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F991FCB61D053F6E002EE6ED /* LaunchScreen.storyboard */; };
 		F991FCC31D053F6F002EE6ED /* SlidingMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F991FCC21D053F6F002EE6ED /* SlidingMenuTests.m */; };
 		F991FCCE1D053F6F002EE6ED /* SlidingMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F991FCCD1D053F6F002EE6ED /* SlidingMenuUITests.m */; };
+		F9C4FE981D0543F900FF5B72 /* SlidingMenuManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FE971D0543F900FF5B72 /* SlidingMenuManger.m */; };
+		F9C4FE9F1D05441F00FF5B72 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FE9A1D05441F00FF5B72 /* HomePageViewController.m */; };
+		F9C4FEA01D05441F00FF5B72 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C4FE9B1D05441F00FF5B72 /* HomePageViewController.xib */; };
+		F9C4FEA11D05441F00FF5B72 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FE9D1D05441F00FF5B72 /* PersonalCenterViewController.m */; };
+		F9C4FEA21D05441F00FF5B72 /* PersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C4FE9E1D05441F00FF5B72 /* PersonalCenterViewController.xib */; };
+		F9FD18E11D0557F50023B26D /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD18E01D0557F50023B26D /* FViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,6 @@
 		F991FCAC1D053F6E002EE6ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F991FCAE1D053F6E002EE6ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F991FCAF1D053F6E002EE6ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F991FCB21D053F6E002EE6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F991FCB41D053F6E002EE6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F991FCB71D053F6E002EE6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F991FCB91D053F6E002EE6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,16 @@
 		F991FCC91D053F6F002EE6ED /* SlidingMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F991FCCD1D053F6F002EE6ED /* SlidingMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingMenuUITests.m; sourceTree = "<group>"; };
 		F991FCCF1D053F6F002EE6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C4FE961D0543F900FF5B72 /* SlidingMenuManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMenuManger.h; sourceTree = "<group>"; };
+		F9C4FE971D0543F900FF5B72 /* SlidingMenuManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMenuManger.m; sourceTree = "<group>"; };
+		F9C4FE991D05441F00FF5B72 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		F9C4FE9A1D05441F00FF5B72 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		F9C4FE9B1D05441F00FF5B72 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		F9C4FE9C1D05441F00FF5B72 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		F9C4FE9D1D05441F00FF5B72 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		F9C4FE9E1D05441F00FF5B72 /* PersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterViewController.xib; sourceTree = "<group>"; };
+		F9FD18DF1D0557F50023B26D /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		F9FD18E01D0557F50023B26D /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +115,19 @@
 		F991FCA71D053F6D002EE6ED /* SlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
+				F9C4FE991D05441F00FF5B72 /* HomePageViewController.h */,
+				F9C4FE9A1D05441F00FF5B72 /* HomePageViewController.m */,
+				F9C4FE9B1D05441F00FF5B72 /* HomePageViewController.xib */,
+				F9C4FE9C1D05441F00FF5B72 /* PersonalCenterViewController.h */,
+				F9C4FE9D1D05441F00FF5B72 /* PersonalCenterViewController.m */,
+				F9C4FE9E1D05441F00FF5B72 /* PersonalCenterViewController.xib */,
+				F9C4FE951D0543F900FF5B72 /* SlidingMenu */,
 				F991FCAB1D053F6D002EE6ED /* AppDelegate.h */,
 				F991FCAC1D053F6E002EE6ED /* AppDelegate.m */,
 				F991FCAE1D053F6E002EE6ED /* ViewController.h */,
 				F991FCAF1D053F6E002EE6ED /* ViewController.m */,
-				F991FCB11D053F6E002EE6ED /* Main.storyboard */,
+				F9FD18DF1D0557F50023B26D /* FViewController.h */,
+				F9FD18E01D0557F50023B26D /* FViewController.m */,
 				F991FCB41D053F6E002EE6ED /* Assets.xcassets */,
 				F991FCB61D053F6E002EE6ED /* LaunchScreen.storyboard */,
 				F991FCB91D053F6E002EE6ED /* Info.plist */,
@@ -138,6 +160,15 @@
 				F991FCCF1D053F6F002EE6ED /* Info.plist */,
 			);
 			path = SlidingMenuUITests;
+			sourceTree = "<group>";
+		};
+		F9C4FE951D0543F900FF5B72 /* SlidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4FE961D0543F900FF5B72 /* SlidingMenuManger.h */,
+				F9C4FE971D0543F900FF5B72 /* SlidingMenuManger.m */,
+			);
+			path = SlidingMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C4FEA01D05441F00FF5B72 /* HomePageViewController.xib in Resources */,
 				F991FCB81D053F6E002EE6ED /* LaunchScreen.storyboard in Resources */,
 				F991FCB51D053F6E002EE6ED /* Assets.xcassets in Resources */,
-				F991FCB31D053F6E002EE6ED /* Main.storyboard in Resources */,
+				F9C4FEA21D05441F00FF5B72 /* PersonalCenterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +307,11 @@
 			files = (
 				F991FCB01D053F6E002EE6ED /* ViewController.m in Sources */,
 				F991FCAD1D053F6E002EE6ED /* AppDelegate.m in Sources */,
+				F9C4FE9F1D05441F00FF5B72 /* HomePageViewController.m in Sources */,
+				F9FD18E11D0557F50023B26D /* FViewController.m in Sources */,
+				F9C4FEA11D05441F00FF5B72 /* PersonalCenterViewController.m in Sources */,
 				F991FCAA1D053F6D002EE6ED /* main.m in Sources */,
+				F9C4FE981D0543F900FF5B72 /* SlidingMenuManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F991FCB11D053F6E002EE6ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F991FCB21D053F6E002EE6ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F991FCB61D053F6E002EE6ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengYeHen.SlidingMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengYeHen.SlidingMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -501,6 +531,7 @@
 				F991FCD41D053F6F002EE6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F991FCD51D053F6F002EE6ED /* Build configuration list for PBXNativeTarget "SlidingMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +540,7 @@
 				F991FCD71D053F6F002EE6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F991FCD81D053F6F002EE6ED /* Build configuration list for PBXNativeTarget "SlidingMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +549,7 @@
 				F991FCDA1D053F6F002EE6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
